@@ -1,0 +1,33 @@
+.text{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    font-style: italic;
+    color: rgb(201, 13, 201);
+    font-size: 30px;
+    
+    
+}
+  body{
+    text-align: center;
+    background-color: rgb(235, 230, 206);
+  }
+
+  .a{
+  
+    border:1px solid slateblue;
+    background-color:thistle;
+
+  }
+
+
+  .resim{
+    
+    height: 250px;
+    width: 180px;
+  }
+  .b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pX;
+  }
