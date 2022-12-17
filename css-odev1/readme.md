@@ -1,1 +1,2 @@
-# Css Homework1[Patika](https://www.patika.dev/tr)
+# Css Homework1
+[Patika](https://www.patika.dev/tr)
