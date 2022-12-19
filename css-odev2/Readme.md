@@ -1,2 +1,2 @@
-# Css Homework2
+# Css Ödevleri
 [Patika](https://www.patika.dev/tr)
