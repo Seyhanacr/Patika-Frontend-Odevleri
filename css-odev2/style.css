@@ -1,0 +1,54 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 1320px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+.center{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #EEEEEE;;
+}
+.boxes{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box1{
+    list-style: none;
+    width: 400px;
+    height: 95px;
+    float: left;
+    margin: 2px;
+    background-color:  #7ee5da;
+    /* padding-top: 5px; */
+}
+.box2{
+    width: 308px;
+    height: 95px ;
+    float:left;
+    margin:2px ;
+    background-color: #7ee5da;
+    overflow: hidden;
+    
+
+}
+.box3{
+        width: 600px;
+        height: 95px;
+        float: left;
+        margin: 2px;
+        background-color:  #7ee5da;
+}
+
