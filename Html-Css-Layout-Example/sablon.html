@@ -8,19 +8,138 @@
     <meta name="description" content="Seyhan Acar">
     <meta name="keywords" content="seyhan,acar,html,css,bilgisayar mühendisi">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #sayfa{
+            width: 900px;
+            min-height: 700px;
+            border-style: solid;
+            border-width: 1px;
+            margin: auto; /* oluşturlan kutunun sayfanın ortasında durması*/
+        }
+        /*banner*/
+        #banner{
+            width: 898px;
+            height: 130px;
+            border-style: dotted;
+            background-color:white;
+            border-width: 1px;
+            margin: auto;
+        }
+
+        /*logo*/
+        #logo{
+            width: 100px;
+            height: 80px;
+            border-style: none;
+            background-color:white;
+            border-width: 1px;
+            position: relative; /*logo konumu belirleme*/
+            top: 10px;
+            left: 10px;
+            float: left;
+
+        }
+        /*sosyal medya iconlar*/
+        #icon{
+            width: 180px;
+            height: 40px;
+            border-style: none;
+            background-color:white;
+            border-width: 1px;
+            float: right;
+            position: relative;
+            top: 30px;
+            right: 10px;
+    }
+
+    /*icon biçimlendirme*/
+    #icond{
+        float: right;
+        margin-left: 5px;
+        position: relative;
+        top: 20px;
+    }
+
+    /*ana menü*/
+    #anamenu{
+            width: 898px;
+            height: 50px;
+            border-style: dotted;
+            background-color:rgb(78, 137, 226);
+            border-width: 1px;
+            margin: auto;
+            text-align: center;
+    }
+
+    #anamenu ul{
+        list-style-type: none; /**/
+        
+    }
+    
+    #anamenu ul li{
+        border-style: solid;
+        border-width: 2px;
+        width: 100px;
+        border-radius: 13px;
+        border-color: blue;
+        float: left;
+        padding: 3px;
+        margin: 13px;
+        position: relative;
+        left: 190px;
+        text-align: center;
+    }
+
+    #anamenu ul a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #anamenu ul a:link{
+        color: blue;
+    }
+    #anamenu ul a:visited{
+        color: purple;
+    }
+    #anamenu ul a:hover{
+        color: darkgreen;
+        text-decoration: underline;
+    }
+    #anamenu ul a:active{
+        color: brown;
+    }
+
+
+
+
+    </style>
     
 </head>
 <body>
     <div id="sayfa">
                         <!------------header start------------>
         <header id="banner">
-
+            <div id="logo">
+                <a href="index.html"> <img src="img/engineer.png" alt="logo" title="Seyhan Acar" style="width: 140px; height: 9 0px;"></a>
+                
+            </div>
+            <div id="icon">
+                <a href="#"><img id="icond" src="img/facebook.png" alt="Facebook" style="height: 50px; width: 50px;"></a>
+                <a href="#"><img id="icond" src="img/instagram.png" alt="İnstagram" style="height: 50px; width: 50px;"></a>
+                <a href="#"><img id="icond" src="img/twitter.png" alt="twitter" style="height: 50px; width: 50px;"></a>
+            </div>
         </header>
                         <!------------header start------------>
 
                         <!------------nav start------------>
         <nav id="anamenu">
-
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="benkimim.html">Ben Kimim</a></li>
+                <li><a href="egitim.html">Eğitim</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
         </nav>
                         <!------------nav start------------>
 
