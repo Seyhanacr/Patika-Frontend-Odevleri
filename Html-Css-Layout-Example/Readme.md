@@ -1,3 +1,3 @@
 <p>
-Bir sayfa yapılmak istendiğinde temel html sayfa düzeninin  nasıl olması gerektiği üzerine yapılan bir örnek
+Bir web sayfası yapılmak istendiğinde temel html sayfa düzeninin  nasıl olması gerektiğini gösteren basit bir örnek
 </p>
