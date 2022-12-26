@@ -1,8 +1,158 @@
-/*css dosyası*/
+                                        
+                                    /**************css dosyası***************/
 
 
 /*boşlukları sıfırlama*/
 *{
     margin: 0px;
     padding: 0px;
+}
+#sayfa{
+    width: 900px;
+    min-height: 700px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto; /* oluşturlan kutunun sayfanın ortasında durması*/
+}
+/*banner*/
+#banner{
+    width: 898px;
+    height: 130px;
+    border-style: dotted;
+    background-color:white;
+    border-width: 1px;
+    margin: auto;
+}
+
+/*logo*/
+#logo{
+    width: 100px;
+    height: 80px;
+    border-style: none;
+    background-color:white;
+    border-width: 1px;
+    position: relative; /*logo konumu belirleme*/
+    top: 10px;
+    left: 10px;
+    float: left;
+
+}
+/*sosyal medya iconlar*/
+#icon{
+    width: 180px;
+    height: 40px;
+    border-style: none;
+    background-color:white;
+    border-width: 1px;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+/*icon biçimlendirme*/
+#icond{
+float: right;
+margin-left: 5px;
+position: relative;
+top: 20px;
+}
+
+/*ana menü*/
+#anamenu{
+    width: 898px;
+    height: 55px;
+    border-style: dotted;
+    background-color:rgb(78, 137, 226);
+    border-width: 1px;
+    margin: auto;
+    text-align: center;
+}
+
+#anamenu ul{
+list-style-type: none; /**/
+
+}
+
+#anamenu ul li{
+border-style: solid;
+border-width: 2px;
+width: 100px;
+border-radius: 13px;
+border-color: blue;
+background-color: white;
+float: left;
+padding: 3px;
+margin: 13px;
+position: relative;
+left: 190px;
+text-align: center;
+}
+
+#anamenu ul a{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+font-weight: bold;
+}
+
+#anamenu ul a:link{
+color: blue;
+}
+#anamenu ul a:visited{
+color: purple;
+}
+#anamenu ul a:hover{
+color: darkgreen;
+text-decoration: underline;
+}
+#anamenu ul a:active{
+color: brown;
+}
+
+/*içerik ve yan menü kodlar*/
+#icerik{
+width: 600px;
+min-height: 400px;
+border-style: dotted;
+background-color:white;
+border-width: 1px;
+float: left;
+}
+
+#yanmenu{
+    width: 293px;
+    height: 398px;
+    border-style: dotted;
+    background-color:rgb(78, 137, 226); 
+    border-width: 1px;
+    float: right;
+    padding: 1px;
+}
+.resim{
+float: left;
+width: 300px;
+}
+
+#altmenu{
+width: 898px;
+height: 50px;
+border-style: dotted;
+background-color:rgb(78, 137, 226); 
+border-width: 1px;
+float: right;
+text-align: center;
+color: black;
+}
+
+#altmenu a{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: black;
+text-decoration: none;
+}
+
+#altmenu a:hover{
+color: blue;
+text-decoration: underline;
 }
