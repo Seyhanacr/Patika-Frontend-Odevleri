@@ -1,3 +1,4 @@
-<p>
-Bir web sayfası yapılmak istendiğinde temel html sayfa düzeninin  nasıl olması gerektiğini gösteren basit bir örnek
-</p>
+
+<p>Semantik(anlamsal) açıdan zengin web sayfalarının oluşturulmasında kullanılan önemli temel dizilim şekli </p>
+
+![Web Page Layout](https://www.w3schools.com/html/img_sem_elements.gif)
