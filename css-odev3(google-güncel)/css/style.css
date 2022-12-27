@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: "Arial", sans-serif;
+}
+
+/********NAVBAR SECTION**********/
+
+nav{
+    display: block;
+    position: relative;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    font-family:'Arial', sans-serif;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.navdiv{
+    position: absolute;
+    height: 48px;
+    width: 200px;
+    right: 15px;
+    top: 1px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin: auto;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    right: 5px;
+    width: 200px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin: 4px;
+    
+    
+}
+
+.menupic{
+    
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    padding: auto auto;
+
+}
+.menu-pic-div{
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.menu-pic-div:hover{
+    box-shadow: #edebec;
+}
+
+.seyhan-pic-div{
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.seyhanpic{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.seyhan-pic-div:hover{
+    border-radius: 100%;
+    box-shadow: #edebec;
+}
+
+
+/**************MAIN SECTION***********/
+
+#main{
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    height: 470px;
+}
+
+.google-logo{
+    width: 280px;
+    height: 92px;
+}
+
+.search{
+    position: relative;
+    height: 160px;
+
+}
+
+.searchdiv{
+    border: #dfe1e5 solid 1px;
+    width: 582px;
+    height: 44px;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    z-index: 3;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: 25px;
+}
+
+.searchdiv:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.searchinput{
+    
+    word-wrap: break-word;
+    border: none transparent;
+    outline: 0;
+    height: 34px;
+    width: 403px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.btn{
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 30px 4px;
+    padding: 20px 16p;
+    line-height: 27px;
+    height: 36px;
+    min-width: 130px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+.btn:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.fa-sm{
+    color: #9aa0a6;
+    margin-left: 15px;
+
+}
+
+.fa-keyboard{
+    color: #676869;
+
+}
+
+.google-mic{
+    width: 30px;
+    margin-left: 15px;
+    
+}
+
+.camera-logo{
+    width: 24px;
+    margin-left: 15px;
+
+}
+
+/******FOOTER SECTION******/
+
+
+#footer{
+    background-color: #f2f2f2;
+}
+
+
+.trk{
+    
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    height: 20px;
+    
+}
+
+.bottom-footer{
+    font-size: 15px;
+    color: #70757a;
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+
+.about{
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    padding-top: 12px;
+}
+
+.carbon{
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    width: 25%;
+    position: absolute;
+    left: 510px;
+    padding-top: 12px;
+}   
+
+
+.settings{
+    
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #70757a;
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    padding-top: 12px;
+}
+
+.bottom-footer a{
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #70757a;
+    padding: 15px 10px 5px;
+}
+
+.leaf{
+    height: 14px;
+}
+
+.carbon-link{
+    font-family: 'Arial', sans-serif;
+    color: #70757a; 
+    font-size: 14px;
+    width: 15%;
+    display: inline;
+    
+}
