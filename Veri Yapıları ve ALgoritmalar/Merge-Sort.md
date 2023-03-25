@@ -13,3 +13,5 @@
     
 
 2.Soru: Big O Notation -> O(nlogn)
+
+[Patika](https://www.patika.dev/tr)
